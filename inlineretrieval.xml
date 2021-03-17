@@ -1,5 +1,5 @@
 <!DOCTYPE rss [
- <!ENTITY % file SYSTEM "file://index.php">
+ <!ENTITY % file SYSTEM "file:///...">
  <!ENTITY % start "<![CDATA[">
  <!ENTITY % end "]]>">
  <!ENTITY % dtd SYSTEM "https://joffreyal.github.io/join.dtd">
