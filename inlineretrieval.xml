@@ -1,0 +1,31 @@
+<!DOCTYPE rss [
+ <!ENTITY file SYSTEM "file:///challenge/web-serveur/ch29/indexx.php">
+]>
+<rss
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+	<channel>
+		<title>Inline retrieval v1</title>
+		<description>Le Monde.fr - 1er site d’information. Les articles du journal et toute l’actualité en continu : International, France, Société, Economie, Culture, Environnement, Blogs ...</description>
+		<copyright>Le Monde - L’utilisation des flux RSS du Monde.fr est réservée à un usage strictement personnel, non professionnel et non collectif. Toute autre exploitation doit faire l’objet d’une autorisation et donner lieu au versement d’une rémunération. Contact : droitsdauteur@lemonde.fr</copyright>
+		<link>https://www.lemonde.fr/rss/une.xml</link>
+		<pubDate>Wed, 17 Mar 2021 15:17:10 +0000</pubDate>
+		<language>fr</language>
+		<atom:link href="https://www.lemonde.fr/rss/une.xml" rel="self" type="application/rss+xml"/>
+		<item>
+			<title>
+				&file;
+			</title>
+			<pubDate>Wed, 17 Mar 2021 09:52:45 +0100</pubDate>
+			<description>
+				<![CDATA[ Deux des régions concernées devraient être l’Ile-de-France et les Hauts-de-France, selon le porte-parole du gouvernement, Gabriel Attal. Confinement strict ou uniquement les week-ends ? Le détail sera donné jeudi soir par Jean Castex. ]]>
+			</description>
+			<guid isPermaLink="true">https://www.lemonde.fr/planete/article/2021/03/17/en-ile-de-france-le-virus-n-est-pas-sous-controle-selon-le-directeur-general-de-l-ap-hp_6073427_3244.html</guid>
+			<link>https://www.lemonde.fr/planete/article/2021/03/17/en-ile-de-france-le-virus-n-est-pas-sous-controle-selon-le-directeur-general-de-l-ap-hp_6073427_3244.html</link>
+			<media:content url="https://img.lemde.fr/2021/02/25/292/0/3500/1750/644/322/60/0/49515a2_ggg-sam102-health-coronavirus-france-0225-11.JPG" width="644" height="322">
+				<media:description type="plain">A Paris, le 25 février.</media:description>
+				<media:credit scheme="urn:ebu">STRINGER / REUTERS</media:credit>
+			</media:content>
+		</item>
+	</channel>
+</rss>
