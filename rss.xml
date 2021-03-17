@@ -2,7 +2,7 @@
  	<!ENTITY % file SYSTEM "file:///index.php">
 	<!ENTITY % start "<![CDATA[">
  	<!ENTITY % end "]]>">
-	<!ENTITY % dtd SYSTEM "https://joffreyal.github.io/join.dtd">
+	<!ENTITY % dtd "<!ENTITY all '%start;%file;%end;'>">
 %dtd;
 ]>
 <rss version="2.0"
