@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <!DOCTYPE rss [
-	<!ENTITY file SYSTEM "file///...">
-]>
+ <!ENTITY % moresyntax "<!ENTITY foo 'dynamic'>">
+%moresyntax;
+]]>
 <rss>
 	<channel>
 		<title>Inline retrieval v9</title>
 		<item>
 			<title>
-				&file;
+				&foo;
 			</title>
 		</item>
 	</channel>
