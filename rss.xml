@@ -1,6 +1,3 @@
-<!DOCTYPE rss [
-	<!ENTITY file SYSTEM "file///challenge/web-serveur/ch29/index.php">
-]>
 <rss>
 	<channel>
 		<title>Inline retrieval v9</title>
