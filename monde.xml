@@ -1,5 +1,5 @@
 <!DOCTYPE rss [
-    <!ENTITY file SYSTEM "file://...">
+    <!ENTITY file SYSTEM "file://index.php">
 ]>
 <rss
 	xmlns:atom="http://www.w3.org/2005/Atom"
